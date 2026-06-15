@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-05-19T15:18:49.486797",
+  "dataset": {
+    "n_total": 7874,
+    "n_train": 5511,
+    "n_test": 2363,
+    "n_classes": 30,
+    "img_size": 48,
+    "min_samples_filter": 10,
+    "aug_factor": 2,
+    "aug_min_per_class": 60,
+    "pca_variance_retain": 0.95
+  },
+  "experiments": [
+    {
+      "name": "HOG(9,8,2)+LBP(8,1,uniform)",
+      "hog": {
+        "orient": 9,
+        "ppc": 8,
+        "cpb": 2
+      },
+      "lbp": {
+        "P": 8,
+        "R": 1,
+        "method": "uniform"
+      },
+      "raw_dim": 910,
+      "pca_dim": 303,
+      "pca_variance": 0.95,
+      "best_kernel": "linear",
+      "best_params": "{'C': 0.0391}",
+      "cv_grid_best": 0.6699,
+      "cv_mean": 0.6699,
+      "cv_std": 0.0018,
+      "test_accuracy": 0.6873,
+      "time_s": 2043.0
+    }
+  ],
+  "best": {
+    "name": "HOG(9,8,2)+LBP(8,1,uniform)",
+    "hog": {
+      "orient": 9,
+      "ppc": 8,
+      "cpb": 2
+    },
+    "lbp": {
+      "P": 8,
+      "R": 1,
+      "method": "uniform"
+    },
+    "raw_dim": 910,
+    "pca_dim": 303,
+    "pca_variance": 0.95,
+    "best_kernel": "linear",
+    "best_params": "{'C': 0.0391}",
+    "cv_grid_best": 0.6699,
+    "cv_mean": 0.6699,
+    "cv_std": 0.0018,
+    "test_accuracy": 0.6873,
+    "time_s": 2043.0
+  }
+}

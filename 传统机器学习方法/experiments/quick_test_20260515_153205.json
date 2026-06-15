@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-05-15T15:32:05.973227",
+  "data": "CROHME 2011 Top-10",
+  "n_samples": 2700,
+  "n_train": 1890,
+  "n_test": 810,
+  "n_classes": 10,
+  "feature_dim_raw": 1774,
+  "feature_dim_pca": 414,
+  "best_kernel": "linear",
+  "best_params": "{'C': np.float64(0.04520353656360243)}",
+  "cv_mean": 0.7661375661375661,
+  "cv_std": 0.012042123467450845,
+  "test_accuracy": 0.7777777777777778,
+  "linear_cv": 0.7661375661375661,
+  "rbf_cv": 0.7613756613756614,
+  "time_s": 459.5
+}
